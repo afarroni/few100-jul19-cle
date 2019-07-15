@@ -1,12 +1,7 @@
-describe('Writing a Spec', () => {
-    it('is easy when you know how!', () => {
-
-        // Given - Arrange
-        const a = 10, b = 20;
-
-        // When - Act
+describe('writing some tests', () => {
+    it('is easy when you know how.', () => {
+        const a = 10, b = 15;
         const answer = a + b;
-        // Then - Assert
-        expect(answer).toBe(30);
-    });
+        expect(answer).toBe(25);
+    })
 });
