@@ -5,3 +5,10 @@ describe('writing some tests', () => {
         expect(answer).toBe(25);
     })
 });
+
+describe('Using the snippets', () => {
+    it('is easy', () => {
+        let a = "a";
+    });
+});
+

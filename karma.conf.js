@@ -24,6 +24,5 @@ module.exports = (config) => {
 
         browsers: ['ChromeHeadless'], // or just 'Chrome', 'ie', 'firefox', etc.
 
-
     });
 };
