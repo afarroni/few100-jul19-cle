@@ -22,7 +22,7 @@ module.exports = (config) => {
 
         reporters: ['progress', 'karma-typescript'],
 
-        browsers: ['ChromeHeadless'], // or just 'Chrome', 'ie', 'firefox', etc.
+        browsers: ['Chrome'], // or just 'Chrome', 'ie', 'firefox', etc.
 
     });
 };

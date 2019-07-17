@@ -1,5 +1,5 @@
 import { isEven, formatName } from '../src/utils';
-describe('functions and objects', () => {
+describe('functions', () => {
     describe('function literals', () => {
         it('the syntai', () => {
             // syntai = multiple syntax

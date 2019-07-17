@@ -1,9 +1,5 @@
+import './styles.css';
+import { ready } from './ready';
+import { runApp } from './app';
 
-const nameInput = document.getElementById('name') as HTMLInputElement;
-const doItButton = document.getElementById('dewit') as HTMLInputElement;
-const messageOutput = document.getElementById('message');
-
-doItButton.addEventListener('click', function () {
-    const enteredName = nameInput.value;
-    messageOutput.innerText = enteredName.toUpperCase();
-});
+ready(runApp);
